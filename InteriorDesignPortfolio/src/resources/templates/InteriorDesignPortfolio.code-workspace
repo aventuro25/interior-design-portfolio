@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "../../main/resources/templates"
+        },
+        {
+            "path": "../../main/resources/static"
+        }
+    ]
+}

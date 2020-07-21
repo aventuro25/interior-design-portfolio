@@ -5,29 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sophia Venturo Designs</title>
+    <title>Sophia Venturo Interiors</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/base.css" type="txt/css">
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredericka+the+Great&family=Poiret+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredericka+the+Great&family=Poiret+One&display=swap"
+        rel="stylesheet">
     <style>
-        #header,#nav{
+        #header,
+        #nav {
             margin: 0 auto;
             text-align: center;
-            
+
         }
-        #header{
-            padding: 50px,0;
+
+        #header {
+            padding: 50px, 0;
             line-height: 100px;
-            height: 100px; 
-            text-align: center;  
-            font-size: 40px; 
-            font-family: 'Fredericka the Great';        
+            height: 100px;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Fredericka the Great';
         }
+
         .btn {
             font-size: 30px;
             font-family: 'Cutive Mono';
         }
+
+img {
+    max-width: 600px;
+    /* margin: 0 auto; */
+    display: block;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
     </style>
 </head>
@@ -35,8 +58,8 @@
 <body>
     <div class="container">
         <div id="header">
-           Sophia Venturo interior designs
-           
+            Sophia Venturo Interiors
+
         </div>
         <nav id="nav">
             <a class="btn badge-pill" href="/about">About</a>
@@ -44,9 +67,48 @@
             <a class="btn badge-pill" href="/contact">Contact</a>
         </nav>
         <hr>
+        <!--temporary hard coding until i get the database set up-->
+        <div id="gallery" class="row">
+            <div class="column">
+                <img src="Amelia_1.jpg" />
+                <img src="BlueBed_1.jpg">
+                <img src="Lily_1.jpg">
+                <img src="Lily_2.jpg">
+                <img src="BrickLiving_2.jpg">
+                <img src="Carrie_1.jpg">
+                <img src="GreenLiving_1.jpg">
+                <img src="Joe_1.jpg">
+                <img src="Living_1.jpg">
+                <img src="kaitlyn_1.jpg">
+                <img src="Mary_1.jpg">
+                <img src="Bed_1.jpg">
+                <img src="Bed_3.jpg">             
+            </div>
+              <div class="column">
+                <img src="Amelia_2.jpg">
+                <img src="BlueBed_2.jpg">
+                <img src="Lily_3.jpg">
+                <img src="Lily_4.jpg">
+                <img src="BrickLiving_1.jpg">             
+                <img src="Carrie_2.jpg">
+                
+                <img src="GreenLiving_2.jpg">
+                
+                <img src="Joe_2.jpg">
+                <img src="Living_2.jpg">
+                
+                <img src="kaitlyn_2.jpg">
+                <img src="Mary_2.jpg">
+                <img src="Bed_2.jpg">
+                
+                <img src="Bed_4.jpg">
+                
+              </div>
+        </div>
+     
+            
+        </div>
 
-        
-    </div>
 </body>
 
 <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
